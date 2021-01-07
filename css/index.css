@@ -84,7 +84,6 @@ a {
 
 .section ul {
   font-family: 'cwTeXFangSong', serif;
-  background: url("/img/Cherry-Blossoms-min.jpg") no-repeat center center/cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
