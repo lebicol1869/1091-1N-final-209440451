@@ -99,14 +99,13 @@ a {
       -ms-flex-align: center;
           align-items: center;
   height: 90vh;
-  font-size: 2rem;
+  font-size: 1rem;
   margin: var(--header-height) 0 0;
   color: var(--dark-color);
   padding: 1rem 0;
 }
 
 .section ul li {
-  font-weight: 300;
   text-align: center;
   color: var(--white-color);
   background-color: var(--dark-color);
@@ -116,7 +115,7 @@ a {
 }
 
 .section ul img {
-  width: 4rem;
+  width: 3rem;
   margin: 1rem 0;
   background-color: var(--dark-color);
   border-radius: 50%;
@@ -145,6 +144,12 @@ a {
   margin: 0.5rem 1rem;
   width: 8rem;
   font-size: 0.25rem;
+}
+
+.social ul li a {
+  text-decoration: none;
+  color: #000;
+  margin: auto 0;
 }
 
 .social ul img {
@@ -276,6 +281,31 @@ a {
           transform: rotate(180deg);
 }
 
+@media screen and (min-width: 480px) {
+  .header__logo {
+    font-size: 1.2rem;
+  }
+  .nav__name {
+    font-size: 1.6rem;
+  }
+  .nav__link {
+    font-size: 1rem;
+  }
+  .section ul li {
+    padding: 1.1rem;
+    font-size: 1.1rem;
+  }
+  .section ul img {
+    width: 3.1rem;
+  }
+  .social ul li {
+    font-size: 0.5rem;
+  }
+  .social ul img {
+    width: 1rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -320,6 +350,8 @@ a {
   }
   .nav__name {
     color: var(--dark-color);
+    width: 6rem;
+    font-size: 1.5rem;
   }
   .nav__list {
     display: -webkit-box;
@@ -334,6 +366,7 @@ a {
     padding: 1.4rem 0;
   }
   .nav__link {
+    font-size: 1.2rem;
     color: var(--dark-color);
   }
   .nav__link:hover {
@@ -364,5 +397,76 @@ a {
   .section ul {
     margin-top: calc(var(--header-height) + 1rem);
   }
+  .section ul li {
+    font-size: 1.3rem;
+    margin: 0.5rem;
+    padding: 1rem;
+  }
+  .section ul img {
+    width: 3.4rem;
+    margin: 0.5rem 0;
+  }
+  .social ul li {
+    margin: 0.5rem 1rem;
+    width: 10rem;
+    font-size: 1rem;
+  }
+  .social ul img {
+    width: 1rem;
+    margin-right: 0.5rem;
+  }
 }
-/*# sourceMappingURL=styles.css.map */
+
+@media screen and (min-width: 1024px) {
+  .nav__name {
+    font-size: 1.7rem;
+    width: 10rem;
+  }
+  .nav__link {
+    font-size: 1.3rem;
+  }
+  .section ul li {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .section ul img {
+    width: 3.8rem;
+  }
+  .social ul li {
+    font-size: 1.2rem;
+  }
+  .social ul img {
+    width: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1224px) {
+  .nav__name {
+    font-size: 1.9rem;
+    width: 10rem;
+  }
+  .nav__link {
+    font-size: 1.4rem;
+  }
+  .section ul li {
+    padding: 1rem;
+    font-size: 1.7rem;
+  }
+  .section ul img {
+    width: 4rem;
+  }
+}
+
+@media screen and (min-width: 1824px) {
+  .nav__link {
+    font-size: 1.7rem;
+  }
+  .section ul li {
+    padding: 1.1rem;
+    font-size: 1.9rem;
+  }
+  .section ul img {
+    width: 4.3rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */
