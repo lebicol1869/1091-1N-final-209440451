@@ -30,6 +30,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   font-weight: 300;
+  cursor: default;
 }
 
 ul {
@@ -215,8 +216,8 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%;
-  height: 100%;
+  width: 70px;
+  height: 70px;
   overflow: hidden;
   margin-bottom: 1rem;
 }
@@ -339,8 +340,8 @@ a {
     margin-bottom: 0;
   }
   .nav__img {
-    width: 100%;
-    height: 100%;
+    width: 46px;
+    height: 46px;
     margin-right: 0.5rem;
     margin-bottom: 0;
   }
